@@ -1,0 +1,82 @@
+html {
+  font-family: Arial;
+  background-color: rgb(15, 45, 128);
+  background-image:url(../img/33.png);
+  display: flex;
+ 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  
+}
+
+button {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+table,
+button,
+label {
+  margin: 4px;
+}
+
+h1,
+h2 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+th {
+  color: rgb(8, 39, 44);
+  font-weight: bolder;
+
+}
+
+label {
+  display: inline-block;
+}
+
+input {
+  width: 10rem;
+  display: block;
+  font-size: 1rem;
+}
+
+th,
+td {
+  padding-left: 8px;
+  text-align: right;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+  text-align: left;
+}
+footer{
+  text-align: center;
+  color: rgb(8, 39, 44);
+  padding: 80px;
+  position: relative;
+ 
+  
+}
+
