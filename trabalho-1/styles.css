@@ -12,9 +12,7 @@ body {
   justify-content: center;
 }
 
-.app {
-  
-}
+
 
 button {
   font-size: 1.3rem;
@@ -47,6 +45,7 @@ h2,
 th {
   color: rgb(8, 39, 44);
   font-weight: bolder;
+  
 
 }
 
@@ -71,12 +70,20 @@ td:first-child {
   padding-left: 0;
   text-align: left;
 }
-footer{
+.footer{
+  position: absolute;
+
+  bottom: 0;
+  width: 100% ;
+  left: 6%;
   text-align: center;
-  color: rgb(8, 39, 44);
-  padding: 80px;
-  position: relative;
- 
+  justify-content: right;
+  align-content: right;
+
+  
+  
+  
+  
   
 }
 
