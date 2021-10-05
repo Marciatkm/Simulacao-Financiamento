@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   background-position:right center;
+  scroll-snap-align: none;
   
   text-align: center;
   
@@ -88,8 +89,8 @@ td:first-child {
   bottom: 0;
   width: 100% ;
   
-  left: 6%;
-  margin: 60%;
+  left: 7%;
+  
   
   text-align: center;
   justify-content: center;
