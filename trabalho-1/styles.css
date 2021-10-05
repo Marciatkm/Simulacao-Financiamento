@@ -1,21 +1,32 @@
 html {
   font-family: Arial;
-  background-color: rgb(15, 45, 128);
-  background-image:url(../img/33.png);
+ /* background-color: hsl(176, 44%, 30%);*/
+ 
+ 
   display: flex;
  
 }
 
 body {
-  margin: 0;
+  padding: 10px;
+  margin: 0px;
   display: flex;
   justify-content: center;
+  background-image: url(../img/porco-cofre.png) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:right center;
+  
+  text-align: center;
+  
 }
+
 
 
 
 button {
   font-size: 1.3rem;
+  border-radius: 10px;
 }
 
 h1 {
@@ -71,13 +82,17 @@ td:first-child {
   text-align: left;
 }
 .footer{
+  display: flex;
   position: absolute;
 
   bottom: 0;
   width: 100% ;
+  
   left: 6%;
+  margin: 60%;
+  
   text-align: center;
-  justify-content: right;
+  justify-content: center;
   align-content: right;
 
   
@@ -86,4 +101,3 @@ td:first-child {
   
   
 }
-
